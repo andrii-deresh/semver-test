@@ -16,6 +16,7 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   build:
+    name: Make sure version is valid
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -29,3 +30,4 @@ jobs:
         run: |
           echo "${{ github.event_name }}"
           echo "${{ github.ref }}"
+          echo "${{ github.event.pull_request.head.ref }}"
