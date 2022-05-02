@@ -1,3 +1,7 @@
+[1.2.1-ctc-develop] - patch
+[1.1.2] - patch
+[1.1.1] - patch
+[1.1.0] - merge ctc-develop into develop
 [1.2.0-ctc-develop] - patch
 [1.1.1-ctc-develop] - patch
 [1.1.0-ctc-develop] - minor
