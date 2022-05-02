@@ -30,6 +30,6 @@ jobs:
           repository: andrii-deresh/common.actions
           ref: main
           path: custom-actions
-          token: ${{ secrets.PAT_COMMON_ACTIONS }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: ./custom-actions/check-version
